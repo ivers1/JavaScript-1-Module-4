@@ -1,0 +1,28 @@
+What is the DOM?
+The stands for document object model.
+With this model a web-developer can access the document through a common set of objects, properties, methods and events. This means the webpage content can be altered dynamically with a scripting language.
+
+List three methods to manipulate the DOM:
+1. addEventListener() This a function that listens for events in elements so they can be done something with, if the event occures. 
+
+2. createElement() This method creates a new HTML element using the name of the HTML tag.
+
+3. appendChild() This method adds an element as the last child to the HTML element that invokes this method.
+
+What is an asynchronous call?
+Asynchronous calls do not block or wait for the API(Application programming interface) call to return from the server. Execution continues on the program, and when the call returns from the server, a "callback" function is executed.
+
+Briefly explain what the sources tab in Chromes Developers Tools does.
+This tab allows a user to set breakpoints and evaluate expressions in javascript. A user can also add an expression to the wath list, this is very helpful by allowing a user to see how a variable changes over time.
+
+What is a JavaScript promise?
+JavaScript promises have gone from a Javascropt framework pattern to a language staple. A promies is a method that eventtually produces a value. It can be considered as the asynchronous counterpart of a getter function. Promises can replace the asynchronous use of callbacks, and they provide several benefits over them.
+
+What is an API?
+API stands for Application programming interface. An API is a set of tools and directions to connect to software. It is often used to share information between programs to better connect databases or technologies.
+
+What is a JavaScript Event?
+Events happends when some sort of interaction takes place in a webpage. This can be the end user clicking on something, moving the mouse over a certain element or pressing down certain keys on the keyboard. This can also be something that happends in the browser, pages completing the load, users scrolling or resizing.
+
+What is event bubbling?
+When an event occurs on an element with parent elements bubbling happends. The browser begins traversing the elements from the target, to the most further ancestor and runs any matching event handler on the way.
